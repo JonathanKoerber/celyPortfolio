@@ -5,7 +5,7 @@ import UnderLineSectionReverse from "../components/UnderLineSectionReverse"
 import { GlobalStyle } from "../theme/globalStyle"
 import Footer from "../components/Footer"
 import React from "react"
-import ToTop from "../components/ToTop"
+
 
 const data = [
   {"hero": [
@@ -108,7 +108,7 @@ function getElements(e) {
   } else if (e.main) {
     return (
       <Main>
-        <ToTop/>
+
         {e.main.map((u, i) => {
             if (u.underline_section) {
               return (
