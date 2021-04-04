@@ -71,15 +71,12 @@ const Title = styled.h1`
     }
 `;
 const Exit = styled.img`
-    display: block;
+    //display: block;
     padding-top: 10%;
-    
     //padding-left: 45%;
     //padding-right: 50%;
-  
     height: 2em;
     width: 2.5em;
-    
     align-self: center;
 @media only screen and (min-width: 582px){
     height: 2.7em;

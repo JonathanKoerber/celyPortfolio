@@ -81,7 +81,7 @@ const StyledLink = styled(Link)`
   
     @media only screen and (min-width: 789px){
     ${Wrapper}:hover &{
-      text-decoration: underline;
+      border-bottom: 2px solid white;
     }
     }
 `;
