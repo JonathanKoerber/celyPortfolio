@@ -40,7 +40,7 @@ const Image = styled.img`
     background-color: #000000;
 `;
 const Logo = styled.img`
-    height: 2em;
+    height: 1.5em;
     width: auto;
     align-self: center;
 @media only screen and (min-width: 582px){
@@ -57,7 +57,7 @@ const Logo = styled.img`
 const Title = styled.h1`
     align-self: center;
     display: block;
-    font-size: 2em;
+    font-size: 1em;
     color: #ffffff;
     font-family: "Times New Roman", serif;
     padding: 5% 0 2% 0;
@@ -75,20 +75,20 @@ const Exit = styled.img`
     padding-top: 10%;
     //padding-left: 45%;
     //padding-right: 50%;
-    height: 2em;
-    width: 2.5em;
+    height: 1em;
+    width: auto;
     align-self: center;
 @media only screen and (min-width: 582px){
     height: 2.7em;
-    width: 4em;
+    width: auto;
     }
 @media only screen and (min-width: 778px){
     height: 4em;
-    width : 4em;
+    width : auto;
     }
 @media only screen and (min-width: 992px){
     height: 5em;
-    width: 5em;
+    width: auto;
    }
     :hover{
         opacity: .7;
